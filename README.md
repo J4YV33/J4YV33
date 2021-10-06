@@ -1,4 +1,8 @@
-<a href="https://app.daily.dev/J4YV33"><img src="https://api.daily.dev/devcards/9a7ab6fe191b4110bc2cefe600dc8722.png?r=5jo" width="400" alt="Jay's Dev Card"/></a>
+<a href="https://app.daily.dev/J4YV33"><img src="https://api.daily.dev/devcards/9a7ab6fe191b4110bc2cefe600dc8722.png?r=5jo" width="400" alt="Jay's Dev Card"/>function getUsers() {
+  fetch("http://jsonplaceholder.typicode.com/users")
+    .then(res => res.json())
+    .then(data => console.log(data));
+}</a>
 
 <!--
 **J4YV33/J4YV33** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
